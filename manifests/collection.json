@@ -17,5 +17,11 @@
       "en" : [ "Bageri- och konditoriarb avd 023 Uppsala" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://goinEVIS.github.io/lm-iiif-v2/manifests/lmmanifest02.json",
+    "label" : {
+      "en" : [ "Bageri- och konditoriarb avd 023 Uppsala" ]
+    },
+    "type" : "Manifest"
   } ]
 }
