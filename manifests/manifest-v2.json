@@ -1,0 +1,277 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://goinEVIS.github.io/lm-iiif-v2/manifests/manifest-v2.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Bageri- och konditoriarb avd 023 Uppsala" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Name of creator(s)" ]
+    },
+    "value" : {
+      "en" : [ "Bageri- och konditoriarb avd 023 Uppsala" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Scope and content" ]
+    },
+    "value" : {
+      "en" : [ "4 pages : annual report" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Creation date" ]
+    },
+    "value" : {
+      "en" : [ "1911" ]
+    }
+  } ],
+  "thumbnail" : [ {
+    "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-01_thumnail.jpg/full/max/0/default.jpg",
+    "type" : "Image"
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/canvas/50feaded-5311-4288-9e3b-24ae133d11dc",
+    "type" : "Canvas",
+    "height" : 5646,
+    "width" : 3613,
+    "thumbnail" : [ {
+      "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-01_thumnail.jpg/full/max/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/canvas/50feaded-5311-4288-9e3b-24ae133d11dc/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/canvas/50feaded-5311-4288-9e3b-24ae133d11dc/painting",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/canvas/50feaded-5311-4288-9e3b-24ae133d11dc",
+        "body" : {
+          "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-01.jpg/info.json",
+          "type" : "Image",
+          "height" : 5646,
+          "width" : 3613,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-01.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3613,
+            "height" : 5646,
+            "sizes" : [ {
+              "width" : 113,
+              "height" : 176
+            }, {
+              "width" : 226,
+              "height" : 353
+            }, {
+              "width" : 452,
+              "height" : 706
+            }, {
+              "width" : 903,
+              "height" : 1412
+            }, {
+              "width" : 1807,
+              "height" : 2823
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "type" : "ImageService",
+            "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-01.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/canvas/0021d89b-41d4-4332-a7ce-34076f41a420",
+    "type" : "Canvas",
+    "height" : 5662,
+    "width" : 3591,
+    "thumbnail" : [ {
+      "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-02_thumnail.jpg/full/max/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/canvas/0021d89b-41d4-4332-a7ce-34076f41a420/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/canvas/0021d89b-41d4-4332-a7ce-34076f41a420/painting",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/canvas/0021d89b-41d4-4332-a7ce-34076f41a420",
+        "body" : {
+          "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-02.jpg/info.json",
+          "type" : "Image",
+          "height" : 5662,
+          "width" : 3591,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-02.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3591,
+            "height" : 5662,
+            "sizes" : [ {
+              "width" : 112,
+              "height" : 177
+            }, {
+              "width" : 224,
+              "height" : 354
+            }, {
+              "width" : 449,
+              "height" : 708
+            }, {
+              "width" : 898,
+              "height" : 1416
+            }, {
+              "width" : 1796,
+              "height" : 2831
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "type" : "ImageService",
+            "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-02.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/canvas/ef48d7d9-9a63-4dd4-95c9-52fe5ab10e8e",
+    "type" : "Canvas",
+    "height" : 5643,
+    "width" : 3578,
+    "thumbnail" : [ {
+      "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-03_thumnail.jpg/full/max/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/canvas/ef48d7d9-9a63-4dd4-95c9-52fe5ab10e8e/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/canvas/ef48d7d9-9a63-4dd4-95c9-52fe5ab10e8e/painting",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/canvas/ef48d7d9-9a63-4dd4-95c9-52fe5ab10e8e",
+        "body" : {
+          "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-03.jpg/info.json",
+          "type" : "Image",
+          "height" : 5643,
+          "width" : 3578,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-03.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3578,
+            "height" : 5643,
+            "sizes" : [ {
+              "width" : 112,
+              "height" : 176
+            }, {
+              "width" : 224,
+              "height" : 353
+            }, {
+              "width" : 447,
+              "height" : 705
+            }, {
+              "width" : 895,
+              "height" : 1411
+            }, {
+              "width" : 1789,
+              "height" : 2822
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "type" : "ImageService"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/canvas/5e719b39-f673-4bdf-b8f9-21391791dfe1",
+    "type" : "Canvas",
+    "height" : 5651,
+    "width" : 3551,
+    "thumbnail" : [ {
+      "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-04_thumnail.jpg/full/max/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/canvas/5e719b39-f673-4bdf-b8f9-21391791dfe1/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/canvas/5e719b39-f673-4bdf-b8f9-21391791dfe1/painting",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/canvas/5e719b39-f673-4bdf-b8f9-21391791dfe1",
+        "body" : {
+          "id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-04.jpg/info.json",
+          "type" : "Image",
+          "height" : 5651,
+          "width" : 3551,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://caniiif.erbenius.com/iiif/2/fac_00167_arsberattelse_1911_sid-04.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3551,
+            "height" : 5651,
+            "sizes" : [ {
+              "width" : 111,
+              "height" : 177
+            }, {
+              "width" : 222,
+              "height" : 353
+            }, {
+              "width" : 444,
+              "height" : 706
+            }, {
+              "width" : 888,
+              "height" : 1413
+            }, {
+              "width" : 1776,
+              "height" : 2826
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "type" : "ImageService"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
