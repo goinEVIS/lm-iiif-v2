@@ -1,0 +1,15 @@
+{
+  "id" : "https://goinEVIS.github.io/lm-iiif-v2/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in goinEVIS/lm-iiif-v2 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://goinEVIS.github.io/lm-iiif-v2/manifests/manifest-v2.json",
+    "label" : {
+      "en" : [ "Bageri- och konditoriarb avd 023 Uppsala" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
